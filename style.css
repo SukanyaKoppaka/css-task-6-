@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLN-no27dFdpiFMTen7SEqe15J_SBDHgX_uX8WoWyLg&s=10");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+nav{
+    width:100vw;
+    height:10vh;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:2vw;
+    font-weight:bold;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    gap:3vw;
+}
+
+ul li{
+    position:relative;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:1.3vw;
+    padding:1vh;
+}
+
+ul li a:hover{
+    background:white;
+    color:black;
+    border-radius:5px;
+}
+
+
+
+.menu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:black;
+    width:12vw;
+}
+
+.menu a{
+    display:block;
+    padding:1vh;
+}
+
+.dropdown:hover .menu{
+    display:block;
+}
+
+
+
+.content{
+    width:100vw;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.content h1{
+    font-size:4vw;
+}
+
+.content p{
+    font-size:2vw;
+}
